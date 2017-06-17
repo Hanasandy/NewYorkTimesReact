@@ -27,8 +27,8 @@ app.use(express.static("./public"));
 
 // MongoDB Configuration configuration
 //mongoose.connect("mongodb://localhost/nytreact");
-//mongoose.connect("mongodb://heroku_rsl43tx1:hd17lonv50hobpc3465u5u8spm@ds129402.mlab.com:29402/heroku_rsl43tx1");
-mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_rsl43tx1:hd17lonv50hobpc3465u5u8spm@ds129402.mlab.com:29402/heroku_rsl43tx1");
+mongoose.connect("mongodb://heroku_rsl43tx1:hd17lonv50hobpc3465u5u8spm@ds129402.mlab.com:29402/heroku_rsl43tx1");
+//mongoose.connect(process.env.MONGODB_URI || "mongodb://heroku_rsl43tx1:hd17lonv50hobpc3465u5u8spm@ds129402.mlab.com:29402/heroku_rsl43tx1");
 
 var db = mongoose.connection;
 
