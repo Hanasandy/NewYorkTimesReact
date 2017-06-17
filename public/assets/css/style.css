@@ -1,0 +1,50 @@
+/*bootstrap over-rides*/
+
+.container{
+	margin: 0px;
+	padding: 10px;
+	width: 70%;
+}
+
+.row , .panel,  .panel-default{
+	margin: 0px;
+	padding: 10px;
+	width: 100%;
+}
+.jumbotron{
+	margin: 0px;
+	padding: 30px;
+	width: 100%;
+	/*background: #20315a;*/
+	/*color: #20315a;*/
+}
+
+.row{
+	/*background: #20315a;*/
+	opacity: 0.9;
+}
+.banner{
+	text-align: center;
+}
+
+
+body{
+}
+
+#app{
+	background-image: url(../images/building.jpg);
+	background-image: 
+	background: ;
+	display: flex;
+	justify-content: center;
+	background-size: 100%;
+	/*background: #20315a;*/
+	/*background-image: url(../images/NYT_Logo.png);*/
+}
+.fa-newspaper-o{
+	color: black;
+}
+
+
+
+
